@@ -8,14 +8,6 @@ import org.openqa.selenium.support.FindBy;
 
 
 public class FacebookTest extends ChromeConfig{
-//
-//  // Overrides the default driver
-//  @Override
-//  public WebDriver getDefaultDriver() {
-//    System.setProperty("webdriver.chrome.driver", "C:/chromeDriver/chromedriver.exe"); // Set for ChromeDriver
-//    driver = new ChromeDriver();
-//    return driver;
-//  }
 
   @FindBy (id = "email")
   private FluentWebElement email;
